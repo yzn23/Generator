@@ -1,0 +1,98 @@
+body {
+  text-align: right;
+  font-family: "Tahoma", sans-serif;
+  line-height: 1.6;
+  padding: 30px;
+  color: #333;
+}
+
+h1 {
+  color: #9933CC;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #6600CC;
+  font-size: 28px;
+  margin-top: 40px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  color: #444;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 60px;
+}
+
+.content {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content img {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: right;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-size: 20px;
+}
+
+.highlight {
+  background-color: #F0E5FF;
+  border-left: 5px solid #9933CC;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.recommendations li {
+  color: #6600CC;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* تنسيق الصفحة للطباعة على أوراق A4 */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  body {
+      padding: 2cm;
+  }
+}
